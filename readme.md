@@ -98,8 +98,8 @@ If everything works fine, you should be able to delete all your component.json f
 ### FAQ
 
 ##### Do I need to change my code?
-If you don't have nameclashes in your application and don't use some fancy lookup paths
-(`paths` property in your __component.json__) it should work without touching the app code.
+If you don't have nameclashes in your application and don't use some fancy [lookup paths](https://github.com/componentjs/spec/blob/master/component.json/specifications.md#paths)
+in your __component.json__, it should work without touching the app code.
 
 You can check if you have some name clashes by running `component2jspm`.
 It will tell you your clashes at the beginning.
